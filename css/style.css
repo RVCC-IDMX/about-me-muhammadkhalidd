@@ -6,6 +6,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Grenze Gotisch";
+    text-align: center;
+}
+
+h1 {
     font-size: 55pt;
 }
 
@@ -17,7 +21,7 @@ header {
     background-color: #fa814f;
     text-align: center;
     padding:10px;
-    color:#325AE0 ;
+    color:#1d42b9 ;
     border: 2px solid #325AE0;
 }
 
