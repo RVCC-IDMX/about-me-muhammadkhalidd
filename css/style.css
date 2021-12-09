@@ -1,16 +1,13 @@
 body {
     font-family:Roboto;
-    background-color: #f0d767;
+    background-color: #f0d77a;
     color: #325AE0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Grenze Gotisch";
     text-align: center;
-}
-
-h1 {
-    font-size: 55pt;
+    font-size: 45pt;
 }
 
 header {
@@ -48,4 +45,37 @@ header {
 
 #gallery figure {
     text-align:center;
+}
+
+/*Literature*/
+
+#lit {
+    border:2px solid #325AE0;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:2rem;
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear: both;
+}
+
+#lit div p:nth-child(3n+1):first-letter {
+    color: #042183;
+    background-image:radial-gradient(white,#f0d77a);
+    float: left;
+    font-size: 3em;
+    padding: .25em;
+    margin-right: .25em;
+    line-height: .65;
+    border: 4px outset rgb(131, 130, 130);
+    text-shadow: 2px 2px 3px rgba(0,0,0,5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,5);
+    border-top-left-radius: .2em;
+    border-bottom-right-radius: .2em;
 }
