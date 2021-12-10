@@ -20,11 +20,19 @@ body {
 
 main {
     padding: 2vw;
-    
+
 }
 
 /* navbar */
 
+.navbar {
+    background-color: rgb(51, 41, 41);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 
 
 /* logo */
