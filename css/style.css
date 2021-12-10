@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 45pt;
 }
 
+h2 {
+    margin: .1em;
+}
 header {
     text-align: center;
 }
@@ -31,6 +34,14 @@ header {
 
 #bio {
     text-align: center;
+}
+
+/*hobbies*/
+
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*gallery section*/
