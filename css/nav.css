@@ -75,10 +75,17 @@ main {
     display: inline-block;
 }
 
-
+.navbar-links a:hover,
+.navbar-links a:focus {
+    color:rgb(51, 41, 41) ;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+}
 
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
